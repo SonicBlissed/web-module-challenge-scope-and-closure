@@ -110,10 +110,15 @@ and returns the score at each pont in the game, like so:
 9th inning: awayTeam - homeTeam
 Final Score: awayTeam - homeTeam */
 
+// getInningScore should be giving us a way to show the score in each inning. Instead of just the total like finalScore is. 
 
-function scoreboard(finalScore, inning, total) {
+function getInningScore(inning){
 
-return `${inning, total} ${finalScore}`
+}
+
+function scoreboard(getInningScore, inning, total) {
+
+
 }
 
 
